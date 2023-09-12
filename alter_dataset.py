@@ -1,10 +1,7 @@
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_absolute_error
-#from IPython.display import display
-import warnings
-warnings.simplefilter("ignore")
-import numpy as np # linear algebra
-import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
+import numpy as np 
+import pandas as pd 
 from matplotlib import pyplot as plt
 from sklearn.inspection import permutation_importance
 from sklearn.metrics import mean_squared_error
